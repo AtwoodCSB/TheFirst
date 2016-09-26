@@ -1,0 +1,61 @@
+<form id="fComputer" action="?act=saveAdd" method="post" onsubmit="return chkForm(this,1)">
+<input type="hidden" name="reUrl" value="{%reUrl%}"/>
+<table class="formTbl" align="center">
+<caption>添加电脑配件</caption>
+<colgroup>
+<col width="120">
+<col>
+</colgroup>
+<tr>
+<th>配件名称：</th>
+<td><input name="title" size="100" maxlength="100" class="inp" type="text"></td>
+</tr>
+<tr>
+<th>配件类型：</th>
+<td><select name="cid"><option value="">--请选择--</option></select></td>
+</tr>
+<tr>
+<th>配件品牌：</th>
+<td><select name="brandid"><option value="">--请选择--</option></select></td>
+</tr>
+<tr>
+<th>配件价格：</th>
+<td><input name="price" size="20" maxlength="50" class="inp" type="text"></td>
+</tr>
+<tr>
+<th></th>
+<td><input type="submit" value="保存" /></td>
+</tr>
+</table>
+<script type="text/javascript" tag="chkForm">var fComputerJSON={"elLabel":{"title":{"elName":"\u914d\u4ef6\u540d\u79f0"},"cid":{"elName":"\u914d\u4ef6\u7c7b\u578b"},"brandid":{"elName":"\u914d\u4ef6\u54c1\u724c"},"price":{"elName":"\u914d\u4ef6\u4ef7\u683c"}},"require":"title,cid,brandid,price","dataType":{"cid":{"regxName":"int"},"brandid":{"regxName":"int"},"price":{"regxName":"int"}},"dataBind":{"cid":{"src":"computer","fn":"jsonToOpt","showLeaf":"1"}},"formId":"fComputer"};</script>
+<script type="text/javascript">
+<!--
+	formDataBind("fComputer");
+	function fillBrandid() {
+		var cidVal=$("#fComputer :input[name='cid']").val();
+		if (cidVal=='') {
+			cidVal=$("#fComputer :input[name='cid']").attr('elVal');
+		}
+		if (cidVal!='') {
+			var selLen=0;
+			if ($("#fComputer select[name='brandid'] option:first").val()=="") {
+				selLen=1;
+			}
+			$("#fComputer select[name='brandid']")[0].length=selLen;
+			var dSrc='brand'+cidVal;
+			var dSrc='/data/'+dSrc+'.json';
+			var pa={"_v": Date.parse(new Date())};
+			$.getJSON(dSrc,pa,function(json){
+				var qs=this.data;
+				var selObj=$(":input[name='brandid']",$("#fComputer"))[0];
+				jsonToOpt(json,selObj,{'showLeaf':1});
+			});
+		}
+	}
+	$("#fComputer select[name='cid']").change(function(){
+		fillBrandid();
+	});
+	fillBrandid();
+ -->
+</script>
+</form>

@@ -1,0 +1,32 @@
+<form id="fOrders" action="?act=save" method="post" onsubmit="return chkOrders(this)">
+<input type="hidden" name="prodjson" value=""/>
+<table class="formTbl" align="center">
+<caption></caption>
+<colgroup>
+<col width="130">
+<col>
+</colgroup>
+<tr>
+<th>
+<span class="require">*</span>配置单类型：</th>
+<td class=""><select name="cid"><option value="">--请选择--</option></select></td>
+</tr>
+<tr>
+<th>
+<span class="require">*</span>配置单名称：</th>
+<td class=""><input name="title" size="20" maxlength="50" class="inp" type="text"></td>
+</tr>
+<tr>
+<th valign="top">配置单说明：</th>
+<td class=""><textarea name="content" cols="50" rows="8"></textarea></td>
+</tr>
+<tr>
+<th></th>
+<td><input type="submit" value="提交配置单" /></td>
+</tr>
+</table>
+<script type="text/javascript" tag="chkForm">var fOrdersJSON={"elLabel":{"cid":{"elName":"\u914d\u7f6e\u5355\u7c7b\u578b"},"title":{"elName":"\u914d\u7f6e\u5355\u540d\u79f0"},"content":{"elName":"\u914d\u7f6e\u5355\u8bf4\u660e"}},"teaList":{"content":{"elType":"html","safe":"1"}},"require":"cid,title","dataBind":{"cid":{"src":"cfgType","fn":"jsonToOpt","showLeaf":"1"}},"formId":"fOrders"};</script>
+<script type="text/javascript">
+	formDataBind("fOrders");
+</script>
+</form>

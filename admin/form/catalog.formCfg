@@ -1,0 +1,1 @@
+a:5:{s:5:"elMap";s:0:"";s:7:"elLabel";a:2:{s:5:"cName";a:1:{s:6:"elName";s:9:"分类名";}s:6:"sortId";a:1:{s:6:"elName";s:9:"排序号";}}s:7:"require";a:2:{s:5:"cName";a:1:{s:8:"nullSkip";s:1:"0";}s:6:"sortId";a:1:{s:8:"nullSkip";s:1:"1";}}s:8:"dataType";a:1:{s:6:"sortId";a:1:{s:8:"regxName";s:5:"float";}}s:6:"formId";s:8:"fCatalog";}

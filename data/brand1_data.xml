@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list maxId="2" maxSortId="2">
+  <item dp="0" cName="Intel" id="1" sortId="1" maxSortId="0"/>
+  <item dp="0" cName="AMD" id="2" sortId="2" maxSortId="0"/>
+</list>

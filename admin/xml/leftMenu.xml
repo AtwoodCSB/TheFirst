@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<list txt="电脑配件分类管理">
+		<item url="tree.php?dataFlag=computer" txt="电脑配件分类"/>
+	</list>
+	<list txt="配置单类型管理">
+		<item url="tree.php?dataFlag=cfgType" txt="配置单类型分类"/>
+	</list>
+	<list txt="配件品牌管理">
+		<item url="brand.php" txt="配件品牌管理"/>
+	</list>
+	<list txt="电脑配件列表">
+		<item url="computerList.php" txt="电脑配件列表"/>
+		<item url="computerList.php?act=add" txt="添加电脑配件"/>
+	</list>
+	<list txt="查看配置单">
+		<item url="ordersList.php" txt="配置单列表"/>
+	</list>
+	<list txt="其它选项">
+		<item url="adminList.php" txt="管理员管理"/>
+		<item url="adminList.php?act=add" txt="添加管理员"/>
+		<item url="logout.php" txt="退出登录"/>
+	</list>
+</root>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list maxId="7" maxSortId="7" _levelLimit="1">
+  <item cName="经济实惠型" id="1" sortId="1" maxSortId="0"/>
+  <item cName="家用学习型" id="2" sortId="2" maxSortId="0"/>
+  <item cName="网吧游戏型" id="3" sortId="3" maxSortId="0"/>
+  <item cName="商务办公型" id="4" sortId="4" maxSortId="0"/>
+  <item cName="疯狂游戏型" id="5" sortId="5" maxSortId="0"/>
+  <item cName="图形音像型" id="6" sortId="6" maxSortId="0"/>
+  <item cName="豪华发烧型" id="7" sortId="7" maxSortId="0"/>
+</list>

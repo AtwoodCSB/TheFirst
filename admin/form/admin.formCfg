@@ -1,0 +1,1 @@
+a:4:{s:5:"elMap";a:2:{s:6:"账号";s:8:"userName";s:6:"密码";s:3:"pwd";}s:7:"elLabel";a:2:{s:8:"userName";a:1:{s:6:"elName";s:6:"账号";}s:3:"pwd";a:1:{s:6:"elName";s:6:"密码";}}s:7:"require";a:2:{s:8:"userName";a:1:{s:8:"nullSkip";s:1:"0";}s:3:"pwd";a:1:{s:8:"nullSkip";s:1:"0";}}s:6:"formId";s:6:"fAdmin";}

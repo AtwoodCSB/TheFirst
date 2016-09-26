@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list maxId="20" maxSortId="20">
+  <item dp="0" cName="Intel" id="1" sortId="1" maxSortId="0"/>
+  <item dp="0" cName="TP-LINK" id="2" sortId="2" maxSortId="0"/>
+  <item dp="0" cName="D-Link" id="3" sortId="3" maxSortId="0"/>
+  <item dp="0" cName="B-Link" id="4" sortId="4" maxSortId="0"/>
+  <item dp="0" cName="腾达" id="5" sortId="5" maxSortId="0"/>
+  <item dp="0" cName="联想" id="6" sortId="6" maxSortId="0"/>
+  <item dp="0" cName="IP-COM" id="7" sortId="7" maxSortId="0"/>
+  <item dp="0" cName="迅捷网络" id="8" sortId="8" maxSortId="0"/>
+  <item dp="0" cName="水星" id="9" sortId="9" maxSortId="0"/>
+  <item dp="0" cName="阿尔法" id="10" sortId="10" maxSortId="0"/>
+  <item dp="0" cName="优肯" id="11" sortId="11" maxSortId="0"/>
+  <item dp="0" cName="金浪" id="12" sortId="12" maxSortId="0"/>
+  <item dp="0" cName="NETGEAR" id="13" sortId="13" maxSortId="0"/>
+  <item dp="0" cName="趋势" id="14" sortId="14" maxSortId="0"/>
+  <item dp="0" cName="SMC" id="15" sortId="15" maxSortId="0"/>
+  <item dp="0" cName="JCG" id="16" sortId="16" maxSortId="0"/>
+  <item dp="0" cName="Netcore" id="17" sortId="17" maxSortId="0"/>
+  <item dp="0" cName="清华同方" id="18" sortId="18" maxSortId="0"/>
+  <item dp="0" cName="3Com" id="19" sortId="19" maxSortId="0"/>
+  <item dp="0" cName="世纪飞扬" id="20" sortId="20" maxSortId="0"/>
+</list>

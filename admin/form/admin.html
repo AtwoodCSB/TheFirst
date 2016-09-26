@@ -1,0 +1,22 @@
+<form id="fAdmin" action="?act=saveAdd" method="post" onsubmit="return chkForm(this,1)">
+<table class="formTbl" align="center">
+<caption>添加管理员</caption>
+<colgroup>
+<col width="50">
+<col>
+</colgroup>
+<tr>
+<th>账号：</th>
+<td><input name="userName" size="20" maxlength="50" class="inp" type="text"></td>
+</tr>
+<tr>
+<th>密码：</th>
+<td><input name="pwd" size="20" maxlength="50" class="inp" type="text"></td>
+</tr>
+<tr>
+<th></th>
+<td><input type="submit" value="保存" /></td>
+</tr>
+</table>
+<script type="text/javascript" tag="chkForm">var fAdminJSON={"elLabel":{"userName":{"elName":"\u8d26\u53f7"},"pwd":{"elName":"\u5bc6\u7801"}},"require":"userName,pwd","formId":"fAdmin"};</script>
+</form>

@@ -1,0 +1,23 @@
+<form id="fCatalog" method="post" action="" onsubmit="return chkForm(this,1)">
+  <table align="center" class="formTbl" style="margin:12px;width:500px;">
+    <caption></caption>
+    <colgroup>
+    <col width="120">
+    <col>
+    </colgroup>
+    <tr>
+      <th><span class="require">*</span>分类名：</th>
+      <td><input type="text" class="inp" maxlength="50" size="50" name="cName"></td>
+    </tr>
+    <tr tag="sortIdTr">
+      <th><span class="require">*</span>排序号：</th>
+      <td><input type="text" class="inp" maxlength="50" size="20" name="sortId"></td>
+    </tr>
+		{%exts%}
+    <tr>
+      <th></th>
+      <td><input type="submit" value="保存"></td>
+    </tr>
+  </table>
+	<script type="text/javascript" tag="chkForm">var fCatalogJSON={"elLabel":{"cName":{"elName":"\u5206\u7c7b\u540d"},"sortId":{"elName":"\u6392\u5e8f\u53f7"}},"require":"cName,sortId","dataType":{"sortId":{"regxName":"float"}},"formId":"fCatalog"};</script>
+</form>
